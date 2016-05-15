@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e7c1db4d03ec0926984e451298d51f62",
-    "content-hash": "7b616be81da5c43c550af26a5a4820aa",
+    "hash": "aed58dcdb90a17b47a9084caca440428",
+    "content-hash": "cb2664a311c177eb1825e2e9f6d547bc",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -5863,6 +5863,37 @@
             ],
             "description": "Set of front-end tools for Magento 2, based on Gulp.js",
             "time": "2016-05-12 17:45:33"
+        },
+        {
+            "name": "snowdog/theme-blank-sass",
+            "version": "0.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SnowdogApps/magento2-theme-blank-sass.git",
+                "reference": "ae1c8a018079a2394a36a405bfc1dab49cac1bfa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SnowdogApps/magento2-theme-blank-sass/zipball/ae1c8a018079a2394a36a405bfc1dab49cac1bfa",
+                "reference": "ae1c8a018079a2394a36a405bfc1dab49cac1bfa",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "100.0.*",
+                "php": "~5.5.0|~5.6.0|~7.0.0"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SASS based version of Magento 2 Blank theme",
+            "time": "2016-05-09 14:32:35"
         },
         {
             "name": "symfony/console",
