@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aed58dcdb90a17b47a9084caca440428",
-    "content-hash": "cb2664a311c177eb1825e2e9f6d547bc",
+    "hash": "a17899ac424d48b66f630eec4bf3973d",
+    "content-hash": "cfa27252fa69063b75f4e5de9de89bf3",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -185,6 +185,39 @@
                 "schema"
             ],
             "time": "2016-01-25 15:43:01"
+        },
+        {
+            "name": "magento-ecg/coding-standard",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-ecg/coding-standard.git",
+                "reference": "eea9b1d1a21d844f28eb65b0d66a1a4c320e0d6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-ecg/coding-standard/zipball/eea9b1d1a21d844f28eb65b0d66a1a4c320e0d6b",
+                "reference": "eea9b1d1a21d844f28eb65b0d66a1a4c320e0d6b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Magento Expert Consulting Group",
+                    "homepage": "http://magentocommerce.com/consulting",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A set of PHP_CodeSniffer rules and sniffs.",
+            "homepage": "https://github.com/magento-ecg/coding-standard",
+            "time": "2015-12-18 16:52:59"
         },
         {
             "name": "magento/composer",
@@ -5844,16 +5877,16 @@
         },
         {
             "name": "snowdog/frontools",
-            "version": "0.8.0",
+            "version": "0.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SnowdogApps/magento2-frontools.git",
-                "reference": "370264851b6e4ff6c1ecbf320320ca45b239a6e5"
+                "reference": "52c09db6a31a05139cef501875fac461bab1263b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SnowdogApps/magento2-frontools/zipball/370264851b6e4ff6c1ecbf320320ca45b239a6e5",
-                "reference": "370264851b6e4ff6c1ecbf320320ca45b239a6e5",
+                "url": "https://api.github.com/repos/SnowdogApps/magento2-frontools/zipball/52c09db6a31a05139cef501875fac461bab1263b",
+                "reference": "52c09db6a31a05139cef501875fac461bab1263b",
                 "shasum": ""
             },
             "type": "magento2-component",
@@ -5862,7 +5895,7 @@
                 "MIT"
             ],
             "description": "Set of front-end tools for Magento 2, based on Gulp.js",
-            "time": "2016-05-12 17:45:33"
+            "time": "2016-05-15 06:45:49"
         },
         {
             "name": "snowdog/theme-blank-sass",
@@ -9115,7 +9148,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "alpha",
+    "minimum-stability": "beta",
     "stability-flags": {
         "composer/composer": 15
     },
